@@ -1,0 +1,2 @@
+seed,test_mae,test_rmse,best_params
+2287,0.04462205991148949,0.057207606732845306,"{'learning_rate': 0.00048277904359277454, 'batch_size': 32, 'epochs': 17, 'dropout': 0.447163246682446, 'fc_dropout': 0.6443896516169554, 'n_layers': 2, 'n_heads': 32, 'd_model': 256, 'd_ff': 64}"
