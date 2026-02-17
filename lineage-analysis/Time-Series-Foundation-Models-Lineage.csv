@@ -1,0 +1,402 @@
+Dataset;Source;Domain;Frequency;Chronos;TimesFM;Moirai;Moirai-MoE;Time-GPT;ForecastPFN;MOMENT;Lag-Llama;GPT4TS;Timer;VisionTS;TTM;LLMTime;Time-LMM;UniTime;Time-MoE;Chronos-2;Flowstate(under review);LightGTS;Sundial;TiRex;Toto;Flowstate(T);TimesFM-ICL;ROSE
+Jena Weather;Autoformer (Wu et al., 2021);Nature;10T;;;ZS;ZS;;;T/T;;T/T;ZS;ZS;ZS;ZS;;;T/T;;ZS;T/T;ZS;;T/T;;;T/T
+Jena Weather;Autoformer (Wu et al., 2021);Nature;H;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+Jena Weather;Autoformer (Wu et al., 2021);Nature;D;;;;;;ZS;;;;;;;;;;;;ZS;;;;T/T;;;
+BizITObs - Application;AutoMixer (Palaskar et al., 2024);Web/CloudOps;10S;;;;;;;;;;;;ZS;;;;;;ZS;;;;T/T;;;
+BizITObs - L2C;AutoMixer (Palaskar et al., 2024);Web/CloudOps;5T;;;;ZS;;;;;;;;;;;;;;ZS;;;;T/T;;;
+BizITObs - L2C;AutoMixer (Palaskar et al., 2024);Web/CloudOps;H;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+BizITObs - Service;AutoMixer (Palaskar et al., 2024);Web/CloudOps;10S;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+BDG-2 Bear;BuildingsBench (Emami et al., 2023);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+BDG-2 Fox;BuildingsBench (Emami et al., 2023);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+BDG-2 Panther;BuildingsBench (Emami et al., 2023);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+BDG-2 Rat;BuildingsBench (Emami et al., 2023);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+Borealis;BuildingsBench (Emami et al., 2023);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+Buildings900K;BuildingsBench (Emami et al., 2023);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+IDEAL;BuildingsBench (Emami et al., 2023);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+Low Carbon London;BuildingsBench (Emami et al., 2023);Energy;H;;;P;P;;;;;;;;;;;;;;P;;P;P;P;P;P;
+Sceaux;BuildingsBench (Emami et al., 2023);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+SMART;BuildingsBench (Emami et al., 2023);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+CMIP6;ClimateLearn (Nguyen et al., 2023);Climate;6H;;;P;P;;;;;;;;;;;;P;;P;;P;;P;;P;
+ERA5;ClimateLearn (Nguyen et al., 2023);Climate;H;;;P;P;;;;;;P;;;;;;P;;P;;P;;P;;P;
+Alibaba Cluster Trace 2018;CloudOpsTSF (Woo et al., 2023);CloudOps;5T;;;P;P;;;;;;;;;;;;P;;P;;P;;P;;;
+Azure vM Traces 2017;CloudOpsTSF (Woo et al., 2023);CloudOps;5T;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+Borg Cluster Data 2011;CloudOpsTSF (Woo et al., 2023);CloudOps;5T;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+Air Passengers;Darts Dataset (Herzen et al., 2021);Econ/Fin;M;;ZS;;;;;;;;;;;ZS;;;;;;;;;;;;
+Aus Beer;Darts Dataset (Herzen et al., 2021);Econ/Fin;Q;;ZS;;;;;;;;;;;ZS;;;;;;;;;;;;
+Gas Rate CO2;Darts Dataset (Herzen et al., 2021);Econ/Fin;Y;;ZS;;;;;;;;;;;ZS;;;;;;;;;;;;
+Monthly Milk;Darts Dataset (Herzen et al., 2021);Econ/Fin;M;;ZS;;;;;;;;;;;ZS;;;;;;;;;;;;
+Wine;Darts Dataset (Herzen et al., 2021);Sales;M;;ZS;;;;;;;;;;;ZS;;;;;;;;;;;;
+Wooly;Darts Dataset (Herzen et al., 2021);Econ/Fin;Q;;ZS;;;;;;;;;;;ZS;;;;;;;;;;;;
+Heart Rate;Darts Dataset (Herzen et al., 2021);Nature;0.5S;;ZS;;;;;;;;;;;ZS;;;;;;;;;;;;
+Sunspots;Darts Dataset (Herzen et al., 2021);Nature;M;;;;;;;;;;;;;ZS;;;;;;;;;;;;
+Bitbrains;Fast Storage Grid Workloads Archive (Shen et al., 2015);Web/CloudOps;5T;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+Bitbrains;Fast Storage Grid Workloads Archive (Shen et al., 2015);Web/CloudOps;H;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+Bitbrains;Fast Storage Grid Workloads Archive (Shen et al., 2015);Web/CloudOps;5T;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+Bitbrains;Fast Storage Grid Workloads Archive (Shen et al., 2015);Web/CloudOps;H;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+FRED;FRED (Oreshkin et al., 2021);Econ/Fin;D;;;;;;;P;;;;;;;;;;;;;;;;;;
+FRED;FRED (Oreshkin et al., 2021);Econ/Fin;Y;;;;;;;P;;;;;;;;;;;;;;;;;;
+FRED;FRED (Oreshkin et al., 2021);Econ/Fin;W;;;;;;;P;;;;;;;;;;;;;;;;;;
+FRED;FRED (Oreshkin et al., 2021);Econ/Fin;M;;;;;;;P;;;;;;;;;;;;;;;;;;
+FRED;FRED (Oreshkin et al., 2021);Econ/Fin;Q;;;;;;;P;;;;;;;;;;;;;;;;;;
+M5;GluonTS (Alexandrov et al., 2020a);Sales;D;ZS;;P;P;;;;;;;;;;;;P;;P;;P;;P;ZS;ZS;
+Taxi;GluonTS (Alexandrov et al., 2020a);Transport;30T;T/T;;P;P;;;;;;;;;;;;P;;P;;P;T/T;P;P;P;
+Taxi;GluonTS (Alexandrov et al., 2020a);Transport;H;P;;;;;;;;;;;;;;;P;;possible P;;P;P;P;P;;
+Uber TLC Daily;GluonTS (Alexandrov et al., 2020a);Transport;D;T/T;;P;P;;;;;;;;;;;;P;;P;;P;T/T;P;P;;
+Uber TLC Hourly;GluonTS (Alexandrov et al., 2020a);Transport;H;T/T;;P;P;;;;P;;;;;;;;P;;P;;P;T/T;P;P;;
+Wiki-Rolling;GluonTS (Alexandrov et al., 2020a);Web;D;;;;;;;;;;;;;;;;P;;P;;;;P;;;
+Trends hourly;Google Trends;Web;H;;P;;;;;;;;;;;;;;;;;;;;;;P;
+Trends weekly;Google Trends;Web;W;;P;;;;;;;;;;;;;;;;;;;;;;P;
+Trends monthly;Google Trends;Web;D;;P;;;;;;;;;;;;;;;;;;;;;;P;
+Requests;Huawei Cloud (Joosen et al., 2023);CloudOps;T;;;;;;;;ZS;;;;;;;;;;;;;;;;;
+Function Delay;Huawei Cloud (Joosen et al., 2023);CloudOps;T;;;;;;;;P;;;;;;;;;;;;;;;;;
+Platform Delay;Huawei Cloud (Joosen et al., 2023);CloudOps;T;;;;;;;;ZS;;;;;;;;;;;;;;;;;
+CPU Usage;Huawei Cloud (Joosen et al., 2023);CloudOps;T;;;;;;;;P;;;;;;;;;;;;;;;;;
+Memory Usage;Huawei Cloud (Joosen et al., 2023);CloudOps;T;;;;;;;;P;;;;;;;;;;;;;;;;;
+CPU Limit;Huawei Cloud (Joosen et al., 2023);CloudOps;T;;;;;;;;P;;;;;;;;;;;;;;;;;
+Memory Limit;Huawei Cloud (Joosen et al., 2023);CloudOps;T;;;;;;;;P;;;;;;;;;;;;;;;;;
+Instances;Huawei Cloud (Joosen et al., 2023);CloudOps;T;;;;;;;;P;;;;;;;;;;;;;;;;;
+ETT1;Informer (Zhou et al., 2020);Energy;15T;ZS;;ZS;;;;T/T;P;T/T;ZS;ZS;ZS;;T/T;T/T;T/T;;ZS;T/T;ZS;;T/T;ZS;ZS;T/T
+ETT1;Informer (Zhou et al., 2020);Energy;H;ZS;;ZS;;;;T/T;P;T/T;ZS;ZS;ZS;;T/T;T/T;T/T;;ZS;T/T;ZS;;T/T;ZS;ZS;T/T
+ETT1;Informer (Zhou et al., 2020);Energy;D;;;;ZS;;ZS;;;;;;;;;;;;ZS;;;;T/T;;;
+ETT1;Informer (Zhou et al., 2020);Energy;W-THU;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+ETT2;Informer (Zhou et al., 2020);Energy;15T;ZS;;ZS;;;;T/T;ZS;T/T;ZS;ZS;ZS;;T/T;T/T;T/T;;ZS;T/T;ZS;;T/T;;ZS;T/T
+ETT2;Informer (Zhou et al., 2020);Energy;H;ZS;;ZS;;;;T/T;P;T/T;ZS;ZS;ZS;;T/T;T/T;T/T;;ZS;T/T;ZS;;T/T;;ZS;T/T
+ETT2;Informer (Zhou et al., 2020);Energy;D;;;;ZS;;ZS;;;;;;;;;;;;ZS;;;;T/T;;;
+ETT2;Informer (Zhou et al., 2020);Energy;W-THU;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+Weather (US);Informer (Zhou et al., 2020);Weather;H;;;;;;;;;;;;;ZS;;;;;;;;;T/T;;;
+Brazilian Cities Temperature;Kaggle Competition;Weather;M;P;;;;;;;;;;;;;;;;;possible P;;P;P;P;P;;
+Walmart Store Sales;Kaggle Competition;Sales;W;;;ZS;ZS;;;;;;;ZS;;;;;;;;;;;;;;
+Istanbul Traffic;Kaggle Competition;Transport;H;;;ZS;ZS;;;;;;;ZS;;;;;;;;;;;;;;
+Turkey Power;Kaggle Competition;Energy;H;;;ZS;ZS;;;;;;;ZS;;ZS;;;;;;;;;;;;
+TSMC Stock;Kaggle Competition;Econ/Fin;D;;;;;;;;;;;;;ZS;;;;;;;;;;;;
+LargeST;LargeST (Liu et al., 2023a);Transport;5T;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+Beijing Subway;LibCity (Wang et al., 2023a);Transport;30T;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;;
+HZMetro;LibCity (Wang et al., 2023a);Transport;15T;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;;
+Loop Seattle;LibCity (Wang et al., 2023a);Transport;5T;;;P;P;;;;;;;;;;;;P;;ZS;;P;;T/T;;;
+Loop Seattle;LibCity (Wang et al., 2023a);Transport;H;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+Loop Seattle;LibCity (Wang et al., 2023a);Transport;D;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+Los-Loop;LibCity (Wang et al., 2023a);Transport;5T;;;P;P;;;;;;;;P;;;;P;;P;;P;P;T/T;P;;
+M_DENSE;LibCity (Wang et al., 2023a);Transport;H;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+M_DENSE;LibCity (Wang et al., 2023a);Transport;D;;;;ZS;;;;;;;;;;;;;;ZS;;;;T/T;;;
+PEMS Bay;LibCity (Wang et al., 2023a);Transport;5T;;;P;P;;;;;;;;P;;;;P;;P;P;P;P;P;P;;P
+PEMS03;LibCity (Wang et al., 2023a);Transport;5T;;;P;P;;;;;;ZS;;P;;;;P;;P;P;P;P;P;P;;P
+PEMS04;LibCity (Wang et al., 2023a);Transport;5T;;;P;P;;;;;;ZS;;P;;;;P;;P;P;P;P;P;P;;P
+PEMS07;LibCity (Wang et al., 2023a);Transport;5T;;;P;P;;;;;;ZS;;P;;;;P;;P;P;P;P;P;P;;P
+PEMS08;LibCity (Wang et al., 2023a);Transport;5T;;;P;P;;;T/T;;;ZS;;P;;;;P;;P;P;P;P;P;P;;P
+Q-Traffic;LibCity (Wang et al., 2023a);Transport;15T;;P;P;P;;;;;;;;P;;;;P;;P;;P;P;P;P;P;
+SHMetro;LibCity (Wang et al., 2023a);Transport;15T;;P;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+SZ-Taxi;LibCity (Wang et al., 2023a);Transport;15T;;P;;;;;;;;;;P;;;;P;;ZS;;;;T/T;;P;
+SZ-Taxi;LibCity (Wang et al., 2023a);Transport;H;;;;;;;;;;;;P;;;;;;ZS;;;;T/T;;;
+Rotterdam;LibCity (Wang et al., 2023a);Transport;2T;;;P;P;;;;;;;;;;;;;;;;P;;T/T;;;
+Beijing Air Quality;LOTSA_Others (Woo et al., 2024);Nature;H;;;P;P;;;;P;;P;;;;;;P;;P;P;P;P;P;P;P;P
+CDC Fluview ILINet;LOTSA_Others (Woo et al., 2024);Healthcare;W;;;P;P;;ZS;T/T;;T/T;;ZS;;;T/T;T/T;P;;P;;P;P;P;P;P;
+CDC Fluview WHO NREVSS;LOTSA_Others (Woo et al., 2024);Healthcare;W;;;P;P;;;;;;;ZS;;;T/T;T/T;P;;P;;P;P;P;P;P;
+China Air Quality;LOTSA_Others (Woo et al., 2024);Nature;H;;;P;P;;;;;;P;;;;;;P;;P;;P;P;P;P;P;
+Favorita Sales;LOTSA_Others (Woo et al., 2024);Sales;D;;P;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+Favorita Transactions;LOTSA_Others (Woo et al., 2024);Sales;D;;;P;P;;;;;;;;;;;;P;;P;;P;;P;;;
+GoDaddy;LOTSA_Others (Woo et al., 2024);Econ/Fin;M;;;P;P;;;;;;;;;;;;;;P;;P;P;P;P;P;
+KDD Cup 2022;LOTSA_Others (Woo et al., 2024);Energy;10T;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+Project Tycho;LOTSA_Others (Woo et al., 2024);Healthcare;W;;;P;P;;;;;;;;;;;;P;;P;;P;;P;;;
+Residential Load Power;LOTSA_Others (Woo et al., 2024);Energy;T;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+Residential PV Power;LOTSA_Others (Woo et al., 2024);Energy;T;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+Restaurant;LOTSA_Others (Woo et al., 2024);Sales;D;;;;;;;;;;;;;;;;P;;;;;;;;;
+Solar;LSTNet (Lai et al., 2017);Energy;10T;;;;;;;;;;;;;;;;;;ZS;T/T;;;T/T;;;T/T
+Solar;LSTNet (Lai et al., 2017);Energy;5T;P;;;;;;;;;;;;;;;;;possible P;;P;P;;P;;
+Solar;LSTNet (Lai et al., 2017);Energy;H;P;;ZS;ZS;;;;;;;ZS;;;;;;;ZS;;P;P;T/T;P;;
+Solar;LSTNet (Lai et al., 2017);Energy;D;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+Solar;LSTNet (Lai et al., 2017);Energy;W-FRI;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+Exchange Rate;LSTNet (Lai et al., 2017);Econ/Fin;D;ZS;;;;;ZS;T/T;ZS;;;;;ZS;;T/T;P;;;T/T;;;;ZS;ZS;
+Hierarchical Sales (M5 Competition);Mancuso et al. (2020);Sales;D;;;;;;;;;;;;;;;;P;;ZS;;;;T/T;;;
+Hierarchical Sales (M5 Competition);Mancuso et al. (2020);Sales;W-WED;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+Australian Electricity Demand;Monash (Godahewa et al., 2021);Energy;30T;ZS;ZS;T/T;T/T;;;P;P;;P;ZS;P;ZS;;;P;;P;P;T/T;;P;ZS;ZS;P
+Bitcoin;Monash (Godahewa et al., 2021);Econ/Fin;D;;ZS;T/T;T/T;;;P;;;P;ZS;P;ZS;;;P;;P;P;T/T;;P;;;P
+Car Parts;Monash (Godahewa et al., 2021);Sales;M;;;T/T;T/T;;;P;;;;ZS;;;;;P;;ZS;;T/T;;T/T;ZS;ZS;
+CIF 2016;Monash (Godahewa et al., 2021);Econ/Fin;M;ZS;ZS;T/T;T/T;;;P;;;;ZS;;ZS;;;P;;P;;T/T;;P;ZS;ZS;
+COVID Deaths;Monash (Godahewa et al., 2021);Healthcare;D;ZS;ZS;T/T;T/T;;;P;;;;ZS;;ZS;;;P;;ZS;;T/T;;T/T;ZS;ZS;
+Covid Mobility;Monash (Godahewa et al., 2021);Transport;D;;;T/T;T/T;;;;;;;;;;;;P;;P;;T/T;;P;;;
+Elecdemand;Monash (Godahewa et al., 2021);Energy;30T;;;T/T;T/T;;;;;;;;;;;;P;;P;;T/T;;P;;;
+Extended Web Traffic;Monash (Godahewa et al., 2021);Web;D;;;T/T;T/T;;;;;;P;;P;;;;P;;P;;T/T;;P;;;
+FRED MD;Monash (Godahewa et al., 2021);Econ/Fin;M;ZS;ZS;T/T;T/T;;;P;;;;ZS;;ZS;;;P;;P;P;T/T;;P;ZS;ZS;P
+Hospital;Monash (Godahewa et al., 2021);Healthcare;M;ZS;ZS;T/T;T/T;;;P;;;;ZS;;ZS;;;P;;ZS;;T/T;;T/T;ZS;ZS;
+Kaggle Web Traffic Weekly;Monash (Godahewa et al., 2021);Web;W;;;P;P;;;P;;;;;;;;;P;;P;;P;P;P;P;P;
+KDD Cup 2018;Monash (Godahewa et al., 2021);Nature;H;T/T;;T/T;T/T;;;P;P;;P;ZS;P;;;;P;;ZS;;T/T;T/T;T/T;P;;
+KDD Cup 2018;Monash (Godahewa et al., 2021);Nature;D;;;;;;;;;;;;;;;;;;ZS;P;;;T/T;;;P
+London Smart Meters;Monash (Godahewa et al., 2021);Energy;30T;T/T;;P;P;;;P;P;;P;;P;;;;P;;P;P;P;T/T;P;P;P;P
+M1 Monthly;Monash (Godahewa et al., 2021);Econ/Fin;M;ZS;;T/T;T/T;;;P;;;;ZS;;;;;P;;P;;T/T;;P;ZS;ZS;
+M1 Quarterly;Monash (Godahewa et al., 2021);Econ/Fin;Q;ZS;;P;P;;;P;;;;;;;;;P;;P;;P;;P;ZS;ZS;
+M1 Yearly;Monash (Godahewa et al., 2021);Econ/Fin;Y;ZS;;P;P;;;P;;;;;;;;;P;;P;;P;;P;ZS;ZS;
+M3 Monthly;Monash (Godahewa et al., 2021);Econ/Fin;M;ZS;;T/T;T/T;;;ZS;;T/T;;ZS;;;;;P;;P;;T/T;;P;ZS;ZS;
+M3 Other;Monash (Godahewa et al., 2021);Econ/Fin;Q;;;T/T;T/T;;;;;T/T;;ZS;;;;;;;P;;T/T;;P;;;
+M3 Quarterly;Monash (Godahewa et al., 2021);Econ/Fin;Q;ZS;;P;P;;;ZS;;T/T;;;;;;;P;;P;;P;;P;ZS;ZS;
+M3 Yearly;Monash (Godahewa et al., 2021);Econ/Fin;Y;ZS;;P;P;;;ZS;;T/T;;;;;;;P;;P;;P;;P;ZS;ZS;
+M4 Daily;Monash (Godahewa et al., 2021);Econ/Fin;D;T/T;P;T/T;T/T;;;P;;T/T;;ZS;;;;;P;;ZS;;T/T;T/T;T/T;P;P;
+M4 Hourly;Monash (Godahewa et al., 2021);Econ/Fin;H;T/T;P;T/T;T/T;;;P;;T/T;;ZS;;;;;P;;ZS;;T/T;T/T;T/T;P;P;
+M4 Monthly;Monash (Godahewa et al., 2021);Econ/Fin;M;T/T;P;T/T;T/T;;;ZS;;T/T;;ZS;;;;;P;;ZS;;T/T;T/T;T/T;P;P;
+M4 Quarterly;Monash (Godahewa et al., 2021);Econ/Fin;Q-DEC;ZS;P;P;P;;;ZS;;T/T;;;;;;;P;;ZS;;P;;T/T;ZS;P;
+M4 Weekly;Monash (Godahewa et al., 2021);Econ/Fin;W-SUN;T/T;P;T/T;T/T;;;;;T/T;;ZS;;;;;P;;ZS;;T/T;T/T;T/T;P;;
+M4 Yearly;Monash (Godahewa et al., 2021);Econ/Fin;A-DEC;ZS;P;P;P;;;ZS;;T/T;;;;;;;P;;ZS;;P;;T/T;ZS;P;
+NN5 Daily;Monash (Godahewa et al., 2021);Econ/Fin;D;ZS;ZS;T/T;T/T;;;P;;;;ZS;P;ZS;;;P;;P;P;T/T;;P;ZS;ZS;P
+NN5 Weekly;Monash (Godahewa et al., 2021);Econ/Fin;W;ZS;ZS;T/T;T/T;;;P;;;;ZS;;ZS;;;;;P;;T/T;;P;ZS;ZS;
+Oikolab Weather;Monash (Godahewa et al., 2021);Climate;H;;;T/T;T/T;;;;;;;;;;;;P;;P;;T/T;;P;;;
+Pedestrian Counts;Monash (Godahewa et al., 2021);Transport;H;T/T;ZS;T/T;T/T;;;P;ZS;;P;ZS;;ZS;;;P;;P;P;T/T;T/T;P;P;;P
+Rideshare;Monash (Godahewa et al., 2021);Transport;H;T/T;;T/T;T/T;;;P;;;;ZS;;;;;P;;P;;T/T;T/T;P;P;;
+Saugeen;Monash (Godahewa et al., 2021);Nature;D;;ZS;T/T;T/T;;;P;;;P;ZS;P;ZS;;;P;;ZS;P;T/T;;T/T;;;P
+Saugeen;Monash (Godahewa et al., 2021);Nature;W-THU;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+Saugeen;Monash (Godahewa et al., 2021);Nature;M;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+Solar Power (Australia);Monash (Godahewa et al., 2021);Energy;4S;;;T/T;T/T;;;P;;;;;;;;;P;;P;P;T/T;P;P;P;P;
+Solar;Monash (Godahewa et al., 2021);Energy;W;;ZS;;;;;P;;;;;P;ZS;;;;;;;;;;;;
+Solar;Monash (Godahewa et al., 2021);Energy;10T;;;;;;;P;P;;;;P;;;;;;;;;;;;;
+Sunspot;Monash (Godahewa et al., 2021);Nature;D;;ZS;T/T;T/T;;;P;P;;P;ZS;P;ZS;;;P;;P;P;T/T;;P;;;P
+Temperature Rain;Monash (Godahewa et al., 2021);Nature;D;T/T;;T/T;T/T;;;P;;;P;ZS;;;;;P;;ZS;P;T/T;T/T;T/T;P;;P
+Tourism Monthly;Monash (Godahewa et al., 2021);Econ/Fin;M;ZS;ZS;;;;;P;;T/T;;ZS;;ZS;;;P;;P;;;;P;ZS;ZS;
+Tourism Quarterly;Monash (Godahewa et al., 2021);Econ/Fin;Q;ZS;ZS;;;;;P;;T/T;;ZS;;ZS;;;P;;P;;;;P;ZS;ZS;
+Tourism Yearly;Monash (Godahewa et al., 2021);Econ/Fin;Y;ZS;ZS;P;P;;;P;;T/T;;;;ZS;;;P;;P;;P;;P;ZS;ZS;
+Traffic Hourly;Monash (Godahewa et al., 2021);Transport;H;ZS;P;T/T;T/T;;;T/T;P;T/T;ZS;ZS;ZS;ZS;T/T;;P;;P;T/T;T/T;;P;ZS;P;T/T
+Traffic Weekly;Monash (Godahewa et al., 2021);Transport;W;;ZS;T/T;T/T;;ZS;P;;;;ZS;;ZS;;;P;;P;;T/T;;P;;;
+US Births;Monash (Godahewa et al., 2021);Healthcare;D;;ZS;T/T;T/T;;;P;;;P;ZS;P;ZS;;;P;;ZS;P;T/T;;T/T;;;P
+US Births;Monash (Godahewa et al., 2021);Healthcare;W-TUE;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+US Births;Monash (Godahewa et al., 2021);Healthcare;M;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+Vehicle Trips;Monash (Godahewa et al., 2021);Transport;D;;;T/T;T/T;;;P;;;;ZS;;;;;P;;P;;T/T;;P;;;
+Weather (Australia);Monash (Godahewa et al., 2021);Climate;D;ZS;ZS;T/T;T/T;;;P;ZS;;;ZS;P;;T/T;T/T;P;;P;P;T/T;;P;ZS;;P
+Wind Farms;Monash (Godahewa et al., 2021);Energy;T;;;T/T;T/T;;;P;;;;;;;;;P;;P;P;T/T;;P;;;P
+Wind Farms;Monash (Godahewa et al., 2021);Energy;H;P;;;;;;;;;;;P;;;;;;;;P;P;;P;;
+Wind Farms;Monash (Godahewa et al., 2021);Energy;D;P;;;;;;;;;;;;;;;;;possible P;;P;P;;P;;
+Wind Farms;Monash (Godahewa et al., 2021);Energy;5T;;;;;;;;P;;;;;;;;;;possible P;;;;;;;
+Wind Power;Monash (Godahewa et al., 2021);Energy;4S;;;T/T;T/T;;;P;;;P;;;;;;;;P;P;T/T;P;P;P;P;P
+Kaggle Web Traffic Daily;Monash (Godahewa et al., 2021);Web;D;;;;;;;P;;;;;;;;;;;P;P;;;;;;P
+Restaurant Recruit;Other;Sales;D;;;;;;;;;;;;;;;;;;ZS;;;;T/T;;;
+Subseasonal;Other;Climate;D;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;P;
+Subseasonal Precipitation;Other;Climate;D;;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;;
+USHCN;Other;Weather;D;P;;;;;;;;;;;;;;;;;possible P;;P;P;P;P;;
+Mexico City Bikes;Other;Transport;H;P;;;;;;;;;;;;;;;P;;possible P;;P;P;P;P;;
+Dominick;Other;Sales;D;ZS;;;;;;P;;;;;;;;;P;;;;;;P;ZS;ZS;
+ERCOT Load;Other;Energy;H;ZS;;;;;;;;;;;;;;;P;;;;;;P;ZS;ZS;
+Weather (US);Other;Weather;10T;;P;;;;;;;;;;;ZS;;;;;;;;;;;;
+Bike Sharing;Other;Transport;H;;;;;;;;;;;;ZS;ZS;;;;;;;;;;;;
+CC Carbon;Other;Energy;2T;;;;;;;;;;;;ZS;;;;;;;;;;;;;
+Air Quality;Other;Nature;H;;;;;;;;P;;;;;;;;;;;;;;;;;
+Beijing PM 2.5;Other;Nature;H;;;;;;;;ZS;;;;;;;;;;;;;;;;;
+TDBrain;Other;Healthcare;0.002S;;;;;;;;;;P;;;;;;;;;P;;;;;;P
+SensorData;Other;IoT;0.02S;;;;;;;;;;P;;;;;;;;;;;;;;;
+BDG-2 Bull;ProEnFo (Wang et al., 2023b);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;;P;;;
+BDG-2 Cockatoo;ProEnFo (Wang et al., 2023b);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;;P;;;
+BDG-2 Hog;ProEnFo (Wang et al., 2023b);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;;P;;;
+Covid19 Energy;ProEnFo (Wang et al., 2023b);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;;P;;;
+ELF;ProEnFo (Wang et al., 2023b);Energy;H;;;P;P;;;;;;;;;;;;;;P;;P;;P;;;
+GEF12;ProEnFo (Wang et al., 2023b);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;;P;;;
+GEF14;ProEnFo (Wang et al., 2023b);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;;P;;;
+GEF17;ProEnFo (Wang et al., 2023b);Energy;H;;;P;P;;;;;;;;;;;;;;P;;P;;P;;;
+PDB;ProEnFo (Wang et al., 2023b);Energy;H;;;P;P;;;;;;;;;;;;P;;P;;P;;P;;;
+Spanish;ProEnFo (Wang et al., 2023b);Energy;H;P;;P;P;;;;;;;;;;;;P;;P;;P;P;P;P;;
+Australia Rainfall;Tan et al., 2021;Nature;H;;;;;;;;;;P;;;;;;;;;;;;;;;
+Beijing PM 2.5;Tan et al., 2021;Nature;H;;;;;;;;;;P;;;;;;;;;;;;;;;
+BenzeneConcentration;Tan et al., 2021;Nature;H;;;;;;;;;;P;;;;;;;;;;;;;;;
+IEEEPPG;Tan et al., 2021;Healthcare;0.008S;;;;;;;;;;P;;;;;;;;;;;;;;;
+BIDMC32HR;Tan et al., 2021;Healthcare;-;;;;;;;;;;P;;;;;;;;;;;;;;;
+Dodger;TSB-UAD (Paparrizos et al., 2022);Traffic;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ECG;TSB-UAD (Paparrizos et al., 2022);Healthcare;-;;;;;;;P;;;;;;;;;;;;;P;;;;;
+IOPS;TSB-UAD (Paparrizos et al., 2022);Web;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+KDD21;TSB-UAD (Paparrizos et al., 2022);Multiple;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+MGAB;TSB-UAD (Paparrizos et al., 2022);Synthetic;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+NAB;TSB-UAD (Paparrizos et al., 2022);Web;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+SensorScope;TSB-UAD (Paparrizos et al., 2022);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+YAHOO;TSB-UAD (Paparrizos et al., 2022);Web;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+NASA-MSL;TSB-UAD (Paparrizos et al., 2022);Sensor;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+NASA-SMAP;TSB-UAD (Paparrizos et al., 2022);Sensor;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Daphnet;TSB-UAD (Paparrizos et al., 2022);Gait;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+GHL;TSB-UAD (Paparrizos et al., 2022);Sensor;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Genesis;TSB-UAD (Paparrizos et al., 2022);Sensor;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+MITDB;TSB-UAD (Paparrizos et al., 2022);Healthcare;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+OPP;TSB-UAD (Paparrizos et al., 2022);Sensor;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Occupancy;TSB-UAD (Paparrizos et al., 2022);Sensor;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+SMD;TSB-UAD (Paparrizos et al., 2022);Web;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+SZSDB;TSB-UAD (Paparrizos et al., 2022);Healthcare;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Electricity;UCI ML Archive (Trindade, 2015);Energy;15T;T/T;P;;;;;T/T;;;;;;;;;P;ZS;;;T/T;T/T;T/T;P;;
+Electricity;UCI ML Archive (Trindade, 2015);Energy;H;T/T;P;ZS;ZS;;;T/T;P;T/T;ZS;ZS;ZS;ZS;T/T;T/T;;ZS;;T/T;ZS;T/T;T/T;P;P;T/T
+Electricity;UCI ML Archive (Trindade, 2015);Energy;D;;;;;;ZS;;;;;;;;;;;ZS;;;;;T/T;;;
+Electricity;UCI ML Archive (Trindade, 2015);Energy;W-FRI;T/T;;;;;;;;;;;;;;;;ZS;;;;T/T;T/T;;;
+Electricity;UCI ML Archive (Trindade, 2015);Energy;M;;;;;;;;;T/T;;;;;;;;;;;;;T/T;;;
+Electricity;UCI ML Archive (Trindade, 2015);Energy;W;;;;;;;P;;;;;;;;;P;;;;;;;P;;
+SemgHandGenderCh2;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+GestureMidAirD2;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+UWaveGestureLibraryAll;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;T/T;;;;;;;;;;;;;;;;;;
+SelfRegulationSCP1;UCR Archive (Ismail Fawaz et al., 2019);Healthcare;-;;;;;;;P;;;P;;;;;;;;;P;;;;;;P
+UWaveGestureLibraryX;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+GesturePebbleZ2;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Healthcare5000 (orignally: ECG5000);UCR Archive (Ismail Fawaz et al., 2019);Healthcare;-;;;;;;;T/T;;;;;;;;;;;;;P;;;;;
+OSULeaf;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;T/T;;;;;;;;;;;;;;;;;;
+MedicalImages;UCR Archive (Ismail Fawaz et al., 2019);Healthcare;-;;;;;;;T/T;;;;;;;;;;;;;;;;;;
+Haptics;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+LargeKitchenAppliances;UCR Archive (Ismail Fawaz et al., 2019);Power;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Japanesevowels;UCR Archive (Ismail Fawaz et al., 2019);Audio;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Worms;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;P;;;;;;P
+Ham;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;T/T;;;;;;;;;;;;;;;;;;
+DistalPhalanxTW;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ProximalPhalanxOutlineCorrect;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+SemgHandMovementCh2;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+RefrigerationDevices;UCR Archive (Ismail Fawaz et al., 2019);Power;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+FreezerRegularTrain;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+PigAirwayPressure;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+TwoLeadECG;UCR Archive (Ismail Fawaz et al., 2019);Healthcare;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+GunPointMaleversusFemale;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Trace;UCR Archive (Ismail Fawaz et al., 2019);Power;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+SmoothSubspace;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+MiddlePhalanxTW;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+AtrialFibrillation;UCR Archive (Ismail Fawaz et al., 2019);Healthcare;-;;;;;;;P;;;P;;;;;;;;;P;;;;;;P
+SyntheticControl;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ShapesAll;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Human;UCR Archive (Ismail Fawaz et al., 2019);BodyZSerticalSignal;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+PLAID;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+AllGestureWiimoteX;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Heartbeat;UCR Archive (Ismail Fawaz et al., 2019);Healthcare;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Wafer;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+FaceFour;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Phoneme;UCR Archive (Ismail Fawaz et al., 2019);Audio;-;;;;;;;P;;;P;;;;;;;;;P;;;;;;P
+InlineSkate;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+CricketX;UCR Archive (Ismail Fawaz et al., 2019);Human Body;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+SelfRegulationSCP2;UCR Archive (Ismail Fawaz et al., 2019);Healthcare;-;;;;;;;P;;;P;;;;;;;;;P;;;;;;P
+DistalPhalanxOutlineCorrect;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ChlorineConcentration;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Chinatown;UCR Archive (Ismail Fawaz et al., 2019);Traffic;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+GestureMidAirD1;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+MiddlePhalanxOutlineAgeGroup;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+UMD;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Crop;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+PenDigits;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+GesturePebbleZ1;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Handwriting;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Mallat;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ERing;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+StarLightCurves;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;P;;;;;;;;;P;;;;;;P
+WordSynonyms;UCR Archive (Ismail Fawaz et al., 2019);Audio;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+PEMS-SF;UCR Archive (Ismail Fawaz et al., 2019);Traffic;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+FaceDetection;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Computers;UCR Archive (Ismail Fawaz et al., 2019);Power;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ArrowHead;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Wine;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Coffee;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Earthquakes;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Herring;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Lightning2;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Beef;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+MiddlePhalanxOutlineCorrect;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+HealthcareFiveDays;UCR Archive (Ismail Fawaz et al., 2019);Healthcare;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Yoga;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Adiac;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+HandMovementDirection;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+MoteStrain;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Rock;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Strawberry;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+InsectWingbeatSound;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+DodgerLoopWeekend;UCR Archive (Ismail Fawaz et al., 2019);Traffic;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+MixedShapesSmallTrain;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+EthanolConcentration;UCR Archive (Ismail Fawaz et al., 2019);Power;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+OliveOil;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Meat;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+MelbournePedestrian;UCR Archive (Ismail Fawaz et al., 2019);Traffic;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Car;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+FaceAll;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+FacesUCR;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+AllGestureWiimoteY;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+NATOPS;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+SemgHandSubjectCh2;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ShakeGestureWiimoteZ;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Cricket;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+BME;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+EigenWorms;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;P;;;;;;;;;P;;;;;;P
+FordB;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+NonInvasiveFetalHealthcareThorax1;UCR Archive (Ismail Fawaz et al., 2019);Healthcare;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+UWaveGestureLibrary;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+CinCHealthcareTorso;UCR Archive (Ismail Fawaz et al., 2019);Healthcare;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+PigArtPressure;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;P;;;;;;;;;P;;;;;;P
+Fish;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+SonyAIBORobotSurface2;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+FiftyWords;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+MotorImagery;UCR Archive (Ismail Fawaz et al., 2019);Healthcare;-;;;;;;;P;;;P;;;;;;;;;P;;;;;;P
+ToeSegmentation1;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+PhonemeSpectra;UCR Archive (Ismail Fawaz et al., 2019);Audio;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+FreezerSmallTrain;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+TwoPatterns;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ShapeletSim;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Plane;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+GestureMidAirD3;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+DiatomSizeReduction;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Human;UCR Archive (Ismail Fawaz et al., 2019);BodyHorizontalSignal;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+CricketZ;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+StandWalkJump;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+WormsTwoClass;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Lightning7;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+UWaveGestureLibraryY;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+GunPointAgeSpan;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+DistalPhalanxOutlineAgeGroup;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+SwedishLeaf;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+LSST;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+CBF;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+BeetleFly;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Libras;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+HouseTwenty;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ScreenType;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+InsectEPGSmallTrain;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+AllGestureWiimoteZ;UCR Archive (Ismail Fawaz et al., 2019);Sensor;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+DodgerLoopDay;UCR Archive (Ismail Fawaz et al., 2019);Sensor;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+NonInZSasiZSeFetalHealthcareThorax2;UCR Archive (Ismail Fawaz et al., 2019);Healthcare;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+BasicHuman;UCR Archive (Ismail Fawaz et al., 2019);Bodys;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+GunPointOldversusYoung;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+FordA;UCR Archive (Ismail Fawaz et al., 2019);Sensor;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+InsectWingbeat;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ItalyPowerDemand;UCR Archive (Ismail Fawaz et al., 2019);Power;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ProximalPhalanxOutlineAgeGroup;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ACSF1;UCR Archive (Ismail Fawaz et al., 2019);Power;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+GunPoint;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+RacketSports;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+SmallKitchenAppliances;UCR Archive (Ismail Fawaz et al., 2019);Power;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ProximalPhalanxTW;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+DuckDuckGeese;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+PickupGestureWiimoteZ;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+EthanolLevel;UCR Archive (Ismail Fawaz et al., 2019);Power;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+SpokenArabicDigits;UCR Archive (Ismail Fawaz et al., 2019);Audio;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+SonyAIBORobotSurface1;UCR Archive (Ismail Fawaz et al., 2019);Facilities;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+HandOutlines;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+PowerCons;UCR Archive (Ismail Fawaz et al., 2019);Power;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+PhalangesOutlinesCorrect;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+BirdChicken;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ToeSegmentation2;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+PigCVP;UCR Archive (Ismail Fawaz et al., 2019);Healthcare;-;;;;;;;P;;;P;;;;;;;;;P;;;;;;P
+CricketY;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+FingerMovements;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ElectricDevices;UCR Archive (Ismail Fawaz et al., 2019);Power;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+InsectEPGRegularTrain;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+DodgerLoopGame;UCR Archive (Ismail Fawaz et al., 2019);Traffic;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Fungi;UCR Archive (Ismail Fawaz et al., 2019);Nature;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Symbols;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+MixedShapesRegularTrain;UCR Archive (Ismail Fawaz et al., 2019);Generated;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+ArticularyWordRecognition;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+UWaveGestureLibraryZ;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Epilepsy;UCR Archive (Ismail Fawaz et al., 2019);Human;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Healthcare200;UCR Archive (Ismail Fawaz et al., 2019);Healthcare;-;;;;;;;P;;;;;;;;;;;;;;;;;;
+Weatherbench (Daily);Weather Bench;Weather;D;P;;;;;;;;;;;;;;;P;;possible P;;P;P;P;P;;
+Weatherbench (Hourly);Weather Bench;Weather;H;P;;;;;;;;;;;;;;;P;;possible P;;P;P;P;P;;
+Weatherbench (Weekly);Weather Bench;Weather;W;P;;;;;;;;;;;;;;;P;;possible P;;P;P;P;P;;
+Wiki hourly;Wikipedia Metrics;Web;H;;P;;;;;;;;;;;;;;;;;;;;;;P;
+Wiki daily;Wikipedia Metrics;Web;D;P;P;;;;;;;;;;;;;;P;;possible P;;P;P;;P;P;
+Wiki weekly;Wikipedia Metrics;Web;W;;P;;;;;;;;;;;;;;;;;;;;;;P;
+Wiki monthly;Wikipedia Metrics;Web;M;;P;;;;;;;;;;;;;;;;;;;;;;P;
+Global Temp;Corrformer (Wu et al., 2023);Weather;10T;;;;;;;;;;;;;;;;T/T;;;;;;;;;
+TSMixup 10M;Chronos (Ansari et al., 2024);Synthetic;-;;;;;;;;;;;;;;;;P;;;;;;;;;
+KernelSynth 1M;Chronos (Ansari et al., 2024);Synthetic;-;;;;;;;;;;;;;;;;P;;;;;;;;;
+TaxiBJ;Zhang et al., 2017;Traffic and weather;30T;;;;;;;;;;;;;;;;ZS;;;;;;;;;
+ERA5;Munoz-Sabater et al., 2021;Weather;3h;;;;;;;;;;;;;;;;;;;;P;;;;P;
+ERA5;Munoz-Sabater et al., 2021;Weather;12h;;;;;;;;;;;;;;;;;;;;P;;;;;
+ERA5;Munoz-Sabater et al., 2021;Weather;D;;;;;;;;;;;;;;;;;;;;P;;;;;
+ERA5;Munoz-Sabater et al., 2021;Weather;W;;;;;;;;;;;;;;;;;;;;P;;;;;
+ERA5;Munoz-Sabater et al., 2021;Weather;M;;;;;;;;;;;;;;;;;;;;P;;;;;
+ERA5;Munoz-Sabater et al., 2021;Weather;Q;;;;;;;;;;;;;;;;;;;;P;;;;;
+Finance (not published);Liu et al., 2025 (Sundial);Finance;?;;;;;;;;;;;;;;;;;;;;P;;;;;
+IoT (not published);Liu et al., 2025 (Sundial);IoT;?;;;;;;;;;;;;;;;;;;;;P;;;;;
+BOOM;Cohen et al. (2025) (TOTO);Observational;10S;;;;;;;;;;;;;;;;;;;;;;ZS;;;
+BOOM;Cohen et al. (2025) (TOTO);Observational;T;;;;;;;;;;;;;;;;;;;;;;ZS;;;
+BOOM;Cohen et al. (2025) (TOTO);Observational;5T;;;;;;;;;;;;;;;;;;;;;;ZS;;;
+BOOM;Cohen et al. (2025) (TOTO);Observational;10T;;;;;;;;;;;;;;;;;;;;;;ZS;;;
+BOOM;Cohen et al. (2025) (TOTO);Observational;30T;;;;;;;;;;;;;;;;;;;;;;ZS;;;
+BOOM;Cohen et al. (2025) (TOTO);Observational;H;;;;;;;;;;;;;;;;;;;;;;ZS;;;
+BOOM;Cohen et al. (2025) (TOTO);Observational;D;;;;;;;;;;;;;;;;;;;;;;;;;
