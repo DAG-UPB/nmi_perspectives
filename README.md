@@ -1,4 +1,4 @@
-# NMI Perspectives — Data Leakage in Time Series Forecasting
+# Rethinking TSFM Evaluation — Data Leakage in Time Series Forecasting
 
 This repository contains a study on data leakage in time series foundation model evaluations. It demonstrates how temporal overlap between training and test data can inflate performance metrics, using stock index forecasting as a case study.
 
